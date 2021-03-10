@@ -1,0 +1,10 @@
+# Referenced at /Users/shiva/AndroidStudioProjects/covidandnewsupdate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:20
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/shiva/AndroidStudioProjects/covidandnewsupdate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:26
+-keep class com.apptreesoftware.flutterwebview.WebViewActivity { <init>(); }
+# Referenced at /Users/shiva/AndroidStudioProjects/covidandnewsupdate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:28
+-keep class com.example.covidandnewsupdate.MainActivity { <init>(); }
+# Referenced at /Users/shiva/AndroidStudioProjects/covidandnewsupdate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:20
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at /Users/shiva/AndroidStudioProjects/covidandnewsupdate/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:70
+-keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }

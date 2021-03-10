@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.covidandnewsupdate"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:9:5-67
+14-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:10:5-78
+15-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:10:22-76
+16
+17    <application
+17-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:11:5-52:19
+18        android:name="io.flutter.app.FlutterApplication"
+18-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:12:9-57
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/shiva/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:14:9-43
+22        android:label="covidandnewsupdate"
+22-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:13:9-43
+23        android:usesCleartextTraffic="true" >
+23-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:15:9-44
+24        <activity android:name="com.apptreesoftware.flutterwebview.WebViewActivity" >
+24-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:16:9-17:20
+24-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:16:19-84
+25        </activity>
+26        <activity
+26-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:18:9-46:20
+27            android:name="com.example.covidandnewsupdate.MainActivity"
+27-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:19:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:22:13-163
+29            android:hardwareAccelerated="true"
+29-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:23:13-47
+30            android:launchMode="singleTop"
+30-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:20:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:21:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:24:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:29:13-32:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:30:15-70
+42                android:resource="@style/NormalTheme" />
+42-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:31:15-52
+43            <!--
+44                 Displays an Android View that continues showing the launch screen
+45                 Drawable until Flutter paints its first frame, then this splash
+46                 screen fades out. A splash screen is useful to avoid any visual
+47                 gap between the end of Android's launch screen and the painting of
+48                 Flutter's first frame.
+49            -->
+50            <meta-data
+50-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:38:13-41:17
+51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+51-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:39:15-79
+52                android:resource="@drawable/launch_background" />
+52-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:40:15-61
+53
+54            <intent-filter>
+54-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:42:13-45:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:43:17-68
+55-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:43:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:44:17-76
+57-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:44:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:49:9-51:33
+65            android:name="flutterEmbedding"
+65-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:50:13-44
+66            android:value="2" />
+66-->/Users/shiva/AndroidStudioProjects/covidandnewsupdate/android/app/src/main/AndroidManifest.xml:51:13-30
+67    </application>
+68
+69</manifest>
